@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirillis</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img class="graficlogo" src="./images/mirillis.png" alt="LOGO"
+        /></a>
+      </div>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">HOME</a>
+          <a href="projects.html">PROJECTS</a>
+          <a href="blog.html">BLOG</a>
+          <a href="contact.html">CONTACT</a>
+          <a href="about.html">ABOUT</a>
+          <a href="services.html">SERVICES</a>
+          <a href="location.html">LOCATION</a>
+          <a id="menu" href="#" class="icon">&#9776;</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Location</h1>
+      <div id="map"></div>
+    </main>
+    <footer>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="location.html">LOCATION</a>
+      </nav>
+      <div class="logo">
+        <a href="index.html"
+          ><img class="graficlogo" src="./images/mirillis.png"
+        /></a>
+      </div>
+      <div class="social">
+        <a href="#"><img src="./images/logo/email.png" alt="" /></a>
+        <a href="#"><img src="./images/logo/fcb.jpg" alt="" /></a>
+        <a href="#"><img src="./images/logo/google.jpg" alt="" /></a>
+        <a href="#"><img src="./images/logo/inst.png" alt="" /></a>
+        <a href="#"><img src="./images/logo/pinterest.jpg" alt="" /></a>
+      </div>
+      <p>Web Developer Blog. 2020</p>
+    </footer>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = { lat: 50.401699, lng: 30.252507 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 5,
+          center: uluru,
+        });
+        var marker = new google.maps.Marker({ position: uluru, map: map });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2_L7_S0C9YJmttQbVniaT_AY59-wbIUQ"
+    ></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+li {
+  color: blue;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.line {
+  color: blue;
+}
+
+.dots {
+  color: black;
+}
+
+.container {
+  display: flex;
+  color: #ff0000;
+  background-color: lightslategray;
+  width: 400px;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.title-first {
+  color: peru;
+}
+
+.title-second {
+  color: black;
+}
+
+.steps-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.step-one {
+  color: white;
+  background: red;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.step-two {
+  color: burlywood;
+  background: orange;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.step-three {
+  background: yellow;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.name {
+  color: red;
+  margin-left: 50px;
+}
+
+.wrapper {
+  background-color: #fff;
+  display: flex;
+}
+
+.sidebar {
+  width: 500px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.myfoto {
+  width: 500px;
+}
+
+.ingredients-container {
+  background-color: cornsilk;
+  width: 230px;
+  font-size: 20px;
+  padding-left: 60px;
+}
+
+.ingredients-container-item {
+  background-color: lemonchiffon;
+  width: 250px;
+}
+
+.process-container {
+  color: red;
+}
+
+.process-container-item {
+  padding-left: 90px;
+  padding-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  line-height: 30px;
+}

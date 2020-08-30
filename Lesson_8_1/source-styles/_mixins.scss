@@ -1,0 +1,28 @@
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin flexHorizontalCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin borderedBgColor($color) {
+  background-color: $color;
+  border: 1px solid $color;
+  &:hover {
+    background-color: darken($color, 20%);
+    border: 1px solid lighten ($color, 20%);
+    color: invert($color);
+  }
+}
+
+@mixin test {
+  background: red;
+  &:active {
+    @content;
+  }
+}

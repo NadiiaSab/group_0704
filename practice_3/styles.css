@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/bg.png);
+  background-size: contain;
+  text-align: center;
+  margin: 0;
+}
+
+.mixed-container {
+  height: 80vh;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.btn {
+  background-color: mediumturquoise;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+
+.message-btn {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  height: 20vh;
+}
+
+.page-footer {
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #50e3c2;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  width: 340px;
+  height: 467px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.month {
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding: 16px;
+}
+
+.month .next {
+  float: right;
+  padding: 16px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  color: #7f8fa4;
+  font-size: 12px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.days li .active {
+  padding: 5px;
+  color: #ffffff;
+  background: #50e3c2;
+}
+
+.days li .inactive {
+  color: #bac2c7;
+}
+
+.cancel {
+  font-size: 10px;
+  line-height: 13px;
+  left: 13.99%;
+  text-align: center;
+}
+
+.save {
+  font-size: 10px;
+  line-height: 13px;
+  left: 87.61%;
+  text-align: center;
+}

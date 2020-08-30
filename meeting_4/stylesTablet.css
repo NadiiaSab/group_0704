@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .top-image {
+    width: 960px;
+    height: 80px;
+    background: #b155d1;
+    grid-area: top;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 350px 610px;
+    height: 586px;
+    width: 960px;
+  }
+
+  .first-child {
+    width: 350px;
+    height: 293px;
+    background: #1283d6;
+  }
+
+  .child {
+    width: 610px;
+    height: 293px;
+    background: #fa6161;
+  }
+
+  .last-child {
+    width: 960px;
+    height: 293px;
+    background: #e1cb08;
+  }
+
+  .bottom-image {
+    width: 960px;
+    height: 113px;
+    background: #55d162;
+  }
+}

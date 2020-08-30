@@ -1,0 +1,128 @@
+:root {
+  --banner-text-blocks-margin-top: 41px;
+  --button-text-color: #3e3e3e;
+}
+
+.banner-section {
+  background-color: var(--header-bg-color);
+  min-height: 300px;
+}
+
+.image-section,
+.foto-section {
+  min-height: 300px;
+}
+
+.banner-column {
+  position: relative;
+}
+
+.banner-column:first-child {
+  width: 50%;
+}
+
+.banner-column:last-child {
+  width: 50%;
+}
+
+.foto-section > .foto-content,
+.banner-action-buttons,
+.banner-section > .page-content {
+  display: flex;
+}
+
+.banner-image {
+  width: 100%;
+  display: block;
+  transform: translateY(10px);
+}
+
+.banner-foto {
+  width: 100%;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 400px;
+}
+
+.banner-title {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.banner-description {
+  margin-top: var(--banner-text-blocks-margin-top); /*68/25=2.75*15=40.8*/
+  font-weight: 300;
+}
+
+.action-button {
+  background: transparent;
+  border: 1px solid var(--button-text-color);
+  border-radius: 60px;
+  color: var(--button-text-color);
+  margin-top: var(--banner-text-blocks-margin-top);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+}
+
+.action-btn {
+  background: transparent;
+  border: 1px solid var(--button-text-color);
+  border-radius: 5px;
+  color: var(--button-text-color);
+  margin-top: var(--banner-text-blocks-margin-top);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+}
+
+.action-btn1 {
+  background: transparent;
+  color: var(--button-text-color);
+  margin-top: var(--banner-text-blocks-margin-top);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+}
+
+.action-btn1:hover,
+.action-btn:hover,
+.action-button:hover {
+  --button-text-color: red;
+}
+
+.action-button:first-child {
+  margin-right: 36px;
+}
+
+.icon-wrapper {
+  display: block;
+  width: 24px;
+  margin-right: 12px;
+}
+
+.icon {
+  width: 100%;
+  display: block;
+}
+
+.icons-content {
+  max-width: var(--page-content-max-width);
+  margin: 0 auto;
+}
+
+.icons-content,
+.image-wrapper {
+  display: inline-block;
+  padding-bottom: 30px;
+}
